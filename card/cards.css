@@ -1,0 +1,32 @@
+    .board-lists {
+    display: grid;
+    grid-auto-columns: 272px;
+    grid-auto-flow: column;
+    grid-gap: 8px;
+  }
+  
+  .board-list {
+    background-color: #76b852;
+    border-radius: 3px;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-gap: 10px;
+    height: max-content;
+    padding: 10px;
+  }
+  
+  .list-title {
+    font-weight: bold;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9,30,66,.25);
+    padding: 10px;
+  }
+  
+  .add-card {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
